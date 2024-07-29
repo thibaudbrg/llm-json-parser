@@ -95,8 +95,8 @@ def analyze_file_prompt() -> str:
     return prompt
 
 def main():
-    input_file_path = "demo_json_formatter/inputs/bad_json.json"
-    output_file_path = "demo_json_formatter/outputs/good_json.json"
+    input_file_path = "llm_json_parser/inputs/bad_json.json"
+    output_file_path = "llm_json_parser/outputs/good_json.json"
 
     if not os.path.isfile(input_file_path):
         print_error("File not found.")

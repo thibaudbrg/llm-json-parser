@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "demo-json-formatter"
+name = "llm-json-parser"
 version = "0.1.0"
 description = ""
 authors = ["Thibaud Bourgeois"]
