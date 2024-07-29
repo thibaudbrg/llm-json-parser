@@ -1,0 +1,112 @@
+{
+    "hotel": "Sunset Beach Resort",
+    "details": {
+        "location": "Tropical Island",
+        "rating": 4.5,
+        "reviews": [
+            {"reviewer": "Alice", "comment": "Great place!", "date": "2023-06-01"},
+            {"reviewer": "Bob", "comment": "Not bad.", "date": "2023-06-05"},
+            {"reviewer": "Charlie", "comment": "Could be better.", "date": "2023-06-10"},
+            {"reviewer": "David", "comment": "Amazing service!", "date": "2023-06-15"},
+            {"reviewer": "Eva", "comment": "Will come again.", "date": "2023-06-20"},
+            {"reviewer": "Frank", "comment": "Loved the view.", "date": "2023-06-25"},
+            {"reviewer": "Grace", "comment": "Food was great.", "date": "2023-06-30"}
+        ],
+        "amenities": [
+            "pool", "spa", {"gym": "24/7", "wifi": "free"},
+            "restaurant", {"bar": {"open": "18:00-23:00", "happy_hour": "19:00-20:00"}},
+            "laundry service", {"room service": {"available": "24/7", "menu": ["pasta", "pizza", "salad"]}}
+        ]
+    },
+    "packages": [
+        {
+            "package_name": "Honeymoon Special",
+            "price": "2000",
+            "currency": "USD",
+            "details": {
+                "duration": "7 days",
+                "includes": [
+                    "breakfast", "dinner", {"activities": ["snorkeling", "sunset cruise", "spa treatment"]}
+                ]
+            },
+            "contact": {
+                "phone": "+123456789",
+                "email": "contact@sunsetresort.com",
+                "address": {
+                    "street": "123 Ocean View",
+                    "city": "Beach Town",
+                    "zip": "12345"
+                }
+            }
+        },
+        {
+            "package_name": "Family Fun",
+            "price": 1500,
+            "currency": "USD",
+            "details": {
+                "duration": "5 days",
+                "includes": [
+                    "breakfast", {"activities": ["water park", "kids club", "movie nights"]}, "free WiFi"
+                ]
+            }
+        },
+        {
+            "package_name": "Adventure Package",
+            "price": 2500,
+            "currency": "USD",
+            "details": {
+                "duration": "10 days",
+                "includes": [
+                    "breakfast", "lunch", "dinner", {"activities": ["hiking", "scuba diving", "paragliding"]}
+                ]
+            },
+            "contact": {
+                "phone": "+987654321",
+                "email": "adventure@sunsetresort.com",
+                "address": {
+                    "street": "456 Adventure Way",
+                    "city": "Mountain View",
+                    "zip": "67890"
+                }
+            }
+        },
+        {
+            "package_name": "Relaxation Retreat",
+            "price": 3000,
+            "currency": "USD",
+            "details": {
+                "duration": "14 days",
+                "includes": [
+                    "breakfast", "dinner", {"activities": ["yoga", "meditation", "spa"]}
+                ]
+            },
+            "contact": {
+                "phone": "+111222333",
+                "email": "relax@sunsetresort.com",
+                "address": {
+                    "street": "789 Tranquil Lane",
+                    "city": "Calm City",
+                    "zip": "54321"
+                }
+            }
+        }
+    ],
+    "customer_feedback": [
+        "Loved the experience!",
+        {"feedback": "Could be better", "details": {"issue": "Service"}},
+        "Best vacation ever!",
+        "The rooms were clean.",
+        {"feedback": "Too expensive", "details": {"issue": "Price"}},
+        "Wonderful staff!",
+        {"feedback": "Noisy at night", "details": {"issue": "Noise"}},
+        "Excellent food!",
+        {"feedback": "Long wait times", "details": {"issue": "Service"}},
+        "Great location!"
+    ],
+    "random_field": [
+        {"nested": {"deeply": {"more": {"layers": "end"}}}},
+        ["unexpected", "array", {"inconsistency": True}],
+        {"another": {"nested": {"structure": {"with": {"many": "levels"}}}}},
+        ["more", "random", {"elements": False}]
+    ]
+}

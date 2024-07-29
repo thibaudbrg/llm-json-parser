@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.venv/
+*.env
+local.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.cache
+
+# C extensions
+*.so
+*.o
+*.a
+*.dylib
+
+# Distribution / packaging
+build/
+whisper_diarization/ctc_forced_aligner/build
+dist/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Environment variables
+.env
+.env.local
+
+# PyCharm specific folders
+.idea/
+*.iml
+
+# Poetry lock file
+poetry.lock

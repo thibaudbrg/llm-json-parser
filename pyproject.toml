@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "demo-json-formatter"
+version = "0.1.0"
+description = ""
+authors = ["Thibaud Bourgeois"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langserve = {extras = ["server"], version = "*"}
+langgraph = "*"
+langchain-openai = "*"
+langchainhub = "*"
+langchain-community = "*"
+langchain-core = "*"
+pydantic = "*"
+colorama = "*"
+python-dotenv = "*"
+instructor = "^1.3.7"
+
+[tool.poetry.group.dev.dependencies]
+langchain-cli = "*"
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
